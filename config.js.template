@@ -1,0 +1,16 @@
+// CHMSU Lost and Found - Supabase Configuration Template
+// 
+// Instructions:
+// 1. Copy this file to config.js
+// 2. Replace the values with your Supabase credentials
+// 3. For GitHub Pages deployment, use GitHub Secrets instead (see README.md)
+
+const SUPABASE_CONFIG = {
+    // Your Supabase project URL
+    // Example: https://xxxxxxxxxxxx.supabase.co
+    URL: 'YOUR_SUPABASE_URL_HERE',
+    
+    // Your Supabase anon/public key
+    // Found in: Project Settings → API → anon/public
+    ANON_KEY: 'YOUR_SUPABASE_ANON_KEY_HERE'
+};
